@@ -111,10 +111,11 @@ main img {
 }
 img[src*="muffin"] {
   margin-left: 50px;
+  float: left;
   shape-outside: circle(110px);
-  shape-outside: polygon(0px 0px, 197px 0px, 241px 31px, 241px 68px, 226px 82px, 219px 131px, 250px 142px, 250px 158px, 0px 158px);
-}
+shape-outside: circle(125px)}
 img[src*="bread"] {
+  float: left ;
   shape-outside: circle(125px);
   shape-outside: ellipse(130px 105px at 50% 50%);
 }
